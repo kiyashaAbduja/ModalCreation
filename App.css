@@ -1,0 +1,150 @@
+/* src/App.css .modal-fullscreen .modal-dialog {
+  max-width: 100%;
+  margin: 0;
+}
+
+.modal-fullscreen .modal-body-custom {
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.full-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modal-prev-btn,
+.modal-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.modal-prev-btn {
+  left: 10px;
+}
+
+.modal-next-btn {
+  right: 10px;
+}
+
+.pagination-text {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 0;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  z-index: 1000;
+}
+
+.modal-close-btn:hover {
+  color: red;
+} */
+
+
+/* src/App.css */
+.image-item {
+  text-align: center;
+}
+
+.image-name {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.modal-fullscreen .modal-dialog {
+  max-width: 100%;
+  margin: 0;
+}
+
+.modal-fullscreen .modal-content {
+  background: transparent;
+  /* Make the modal background transparent */
+  border: none;
+  /* Remove border */
+}
+
+.modal-fullscreen .modal-body-custom {
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: transparent;
+  /* Add a semi-transparent dark background */
+}
+
+.full-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modal-prev-btn,
+.modal-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.modal-prev-btn {
+  left: 10px;
+}
+
+.modal-next-btn {
+  right: 10px;
+}
+
+.pagination-text {
+  color: #d12b2b;
+  /* position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+    /* z-index: 1000;
+    background: rgba(0, 0, 0, 0.5); 
+  padding: 5px 0;
+  */
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  z-index: 1000;
+}
+
+.modal-close-btn:hover {
+  color: red;
+}
